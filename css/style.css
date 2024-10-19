@@ -81,8 +81,22 @@ header, main {;
     color: #404BBF;
 }
 
+.h-one, .header-two {
+    color: #2e2f42;
+}
 
-/** Logo */
+.h-one {
+    background-color: #2e2f42;
+    line-height: 1.07;
+    color: #ffffff;
+}
+
+.header-two {
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+    /** Logo */
 .logo {
     text-transform: uppercase;
     color: #4d5ae5;
@@ -93,6 +107,14 @@ header, main {;
 
 }
 
+.list-item {
+    background-color: #FFFFFF;
+}
+
+.paragraph {
+    font-size: 16px;
+}
+
 .logo > span {
     color: #2e2f42;
 }
@@ -100,16 +122,20 @@ header, main {;
 .logo.top {
     font-size: 18px;
     font-weight: 700;
-    line-height: 21px;
+    line-height:  1.17;
     letter-spacing: 0.03em;
 }
 
 .logo.bottom {
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
+    font-size: 18px;
+    font-weight: 700;
     letter-spacing: 0.03em;
-    color: white;
+    color: #4d5ae5;
+    line-height: 1.17;
+}
+
+.logo.bottom > span {
+    color: #f4f4fd;
 }
 
 .btn.default {
@@ -132,14 +158,19 @@ header, main {;
 }
 
 .section-one {
+    background-color: #2e2f42;
     text-align: center;
 }
 
-.section-two-header {
+.header-two {
     line-height: 1.07;
 }
 
 .section-three {
     background: #F4F4FD;
     text-align: center;
+}
+
+.footer-paragraph {
+    color: #F4F4FD;
 }
