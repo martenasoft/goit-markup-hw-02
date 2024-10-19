@@ -110,7 +110,7 @@ header, main {;
 .list-item {
     background-color: #FFFFFF;
 }
-.list-item a:hover, .list-item a:active {
+.list-item a:hover, .list-item a:active, .list-item a:focus {
     color: #404bbf;
 }
 .paragraph {
