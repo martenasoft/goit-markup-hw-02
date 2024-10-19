@@ -22,7 +22,10 @@ h1 {
     font-weight: 700;
     line-height: 60px;
     letter-spacing: 0.02em;
-    padding-top: 15%;
+    padding-top: 12%;
+    padding-bottom: 40px;
+    margin: 0 auto;
+    width: 496px;
 }
 
 h2 {
@@ -30,6 +33,8 @@ h2 {
     font-size: 36px;
     line-height: 40px;
     text-align: center;
+    margin: 0px auto;
+    padding-top: 85px;
 }
 
 h3 {
@@ -41,14 +46,15 @@ h3 {
 
 ul {
     list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
-
 
 header, main {
     padding: 0;
     margin: 0;
-
 }
+
 header .logo {
     display: block;
 }
@@ -59,9 +65,14 @@ header, nav, nav ul, address ul {
     grid-auto-flow: column;
 }
 
+nav {
+    padding: 20px 0 20px 0 ;
+}
+
 nav li, address li {
     margin-left: 15px;
 }
+
 nav a {
     font-size: 16px;
     font-weight: 500;
@@ -180,9 +191,14 @@ header address a:hover, header address a:active {
 }
 
 .section-3 {
-    padding: 85px 0 85px 0;
     background: #F4F4FD;
     text-align: center;
+}
+
+.section-4 ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
 }
 
 footer p  {
