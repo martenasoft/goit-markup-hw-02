@@ -110,7 +110,9 @@ header, main {;
 .list-item {
     background-color: #FFFFFF;
 }
-
+.list-item a:hover {
+    color: #404bbf;
+}
 .paragraph {
     font-size: 16px;
 }
@@ -138,7 +140,7 @@ header, main {;
     color: #f4f4fd;
 }
 
-.btn.default {
+.btn-big-default {
     background: #4D5AE5;
     color: white;
     font-size: 16px;
@@ -148,7 +150,7 @@ header, main {;
     letter-spacing:  0.04em;
 }
 
-.btn.default:hover {
+.btn-big-default:hover {
     background-color: #404BBF;
 }
 
@@ -157,18 +159,29 @@ header, main {;
     color: white;
 }
 
-.section-one {
+.section-one, .section-two {
     background-color: #2e2f42;
     text-align: center;
+}
+
+.section-two {
+    line-height: 1.11;
 }
 
 .header-two {
     line-height: 1.07;
 }
+.header-two-s {
+    line-height: 1.11
+}
 
 .section-three {
     background: #F4F4FD;
     text-align: center;
+}
+
+.paragraph {
+    color: #2e2f42;
 }
 
 .footer-paragraph {
