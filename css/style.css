@@ -2,7 +2,7 @@
 body {
     font-family: Roboto, sans-serif;
     background: #ffffff;
-    color: #2E2F42;
+    color: #434455;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
@@ -22,10 +22,7 @@ h1 {
     font-weight: 700;
     line-height: 60px;
     letter-spacing: 0.02em;
-    padding-top: 12%;
-    padding-bottom: 40px;
     margin: 0 auto;
-    width: 496px;
 }
 
 h2 {
@@ -34,7 +31,6 @@ h2 {
     line-height: 40px;
     text-align: center;
     margin: 0px auto;
-    padding-top: 85px;
 }
 
 h3 {
@@ -47,33 +43,13 @@ h3 {
 ul {
     list-style-type: none;
     margin: 0;
-    padding: 0;
 }
 
-header, main {
-    padding: 0;
+header, main {;
     margin: 0;
 }
 
-header .logo {
-    display: block;
-}
-
-header, nav, nav ul, address ul {
-    display: grid;
-    place-items: center;
-    grid-auto-flow: column;
-}
-
-nav {
-    padding: 20px 0 20px 0 ;
-}
-
-nav li, address li {
-    margin-left: 15px;
-}
-
-nav a {
+.nav-link {
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;
@@ -82,13 +58,13 @@ nav a {
     text-decoration: none;
 }
 
-nav a:hover, nav a:active {
+.nav-link:hover, .nav-link:active {
     color: #404BBF;
 }
 
 /** Common header address */
 
-header address a {
+.address-link {
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
@@ -97,22 +73,28 @@ header address a {
     text-decoration: none;
 }
 
-header address a:hover, header address a:active {
+.header-address {
+    font-style: normal;
+}
+
+.address-link:hover, .address-link:active {
     color: #404BBF;
 }
+
 
 /** Logo */
 .logo {
     text-transform: uppercase;
-    color: #2E2F42;
+    color: #4d5ae5;
     text-decoration: none;
-    font-family: Raleway;
+    font-family: "Raleway", sans-serif;
     text-align: left;
+    line-height: 1.17;
 
 }
 
 .logo > span {
-    color: #4D5AE5;
+    color: #2e2f42;
 }
 
 .logo.top {
@@ -130,33 +112,6 @@ header address a:hover, header address a:active {
     color: white;
 }
 
-.component {
-    padding-left: 85px;
-    padding-right: 85px;
-}
-
-.component-v {
-    padding-top:  85px;
-    padding-bottom:  85px;
-}
-
-/** Button **/
-.btn {
-    border: none;
-    padding: 0;
-    margin: 0;
-}
-
-.btn.big {
-    width: 169px;
-    height: 56px;
-    top: 20px;
-    left: 20px;
-    padding: 16px 32px 16px 32px;
-    gap: 10px;
-    border-radius: 4px;
-}
-
 .btn.default {
     background: #4D5AE5;
     color: white;
@@ -164,43 +119,27 @@ header address a:hover, header address a:active {
     font-weight: 500;
     line-height: 24px;
     cursor: pointer;
+    letter-spacing:  0.04em;
 }
 
 .btn.default:hover {
-    background: #404BBF;
+    background-color: #404BBF;
 }
 
 .hero {
-    background: #2E2F42;
+    background-color: #2E2F42;
     color: white;
 }
 
-.section-1 {
-    height: 600px;
+.section-one {
     text-align: center;
 }
 
-.section-2 ul, .section-3 ul {
-    display: grid;
-    place-items: center;
-    grid-auto-flow: column;
+.section-two-header {
+    line-height: 1.07;
 }
 
-.section-2 li {
-    width: 264px;
-}
-
-.section-3 {
+.section-three {
     background: #F4F4FD;
     text-align: center;
-}
-
-.section-4 ul {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 10px;
-}
-
-footer p  {
-    width: 400px;
 }
