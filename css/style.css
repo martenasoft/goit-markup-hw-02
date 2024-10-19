@@ -172,6 +172,12 @@ header, main {;
     background-color: #F4F4FD;
 }
 
+.section-three {
+    background-color: #F4F4FD;
+    text-align: center;
+    line-height: 1.11;
+}
+
 .header-two {
     color: #2e2f42;
     line-height: 1.07;
@@ -184,11 +190,11 @@ header, main {;
     color: #2e2f42;
 }
 
-.section-three {
-    background-color: #F4F4FD;
-    text-align: center;
-    line-height: 1.11;
+.header-three {
+    color: #2e2f42;
 }
+
+
 
 .paragraph {
     color: #2e2f42;
