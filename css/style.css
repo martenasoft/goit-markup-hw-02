@@ -150,7 +150,7 @@ header, main {;
     letter-spacing:  0.04em;
 }
 
-.btn-big-default:hover {
+.btn-big-default:hover, .btn-big-default:focus {
     background-color: #404BBF;
 }
 
@@ -176,8 +176,12 @@ header, main {;
     color: #2e2f42;
     line-height: 1.07;
 }
+
 .header-two-s {
-    line-height: 1.11
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
 }
 
 .section-three {
