@@ -110,7 +110,7 @@ header, main {;
 .list-item {
     background-color: #FFFFFF;
 }
-.list-item a:hover {
+.list-item a:hover, .list-item a:active {
     color: #404bbf;
 }
 .paragraph {
@@ -168,7 +168,12 @@ header, main {;
     line-height: 1.11;
 }
 
+.section-two-s {
+    background-color: #F4F4FD;
+}
+
 .header-two {
+    color: #2e2f42;
     line-height: 1.07;
 }
 .header-two-s {
@@ -176,12 +181,20 @@ header, main {;
 }
 
 .section-three {
-    background: #F4F4FD;
+    background-color: #F4F4FD;
     text-align: center;
+    line-height: 1.11;
 }
 
 .paragraph {
     color: #2e2f42;
+    line-height: 1.5;
+}
+
+
+.paragraph-two {
+    color: #434455;
+    line-height: 1.5;
 }
 
 .footer-paragraph {
